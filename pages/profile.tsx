@@ -1,5 +1,10 @@
-export default function () {
+import { Button, Layout } from 'antd'
+const { Content } = Layout
+
+export default function (props) {
   return (
-    <div>Profile</div>
+    <Content>
+      <div>个人中心</div>
+    </Content>
   )
 }
